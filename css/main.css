@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 
-/* Color Variables */
+/* Color Variables*/ /* Color Palet: https://coolors.co/17301c-379392-c0e8f9-4c9f70-496f5d */
 :root {
-  --nav-background-color: green;
-  --nav-aHover-color: darkblue;
+  --nav-background-color: #3c9f70;
+  --nav-aHover-color: #496f5d;
   --hero-font-color: white;
+  --footer-background-color: #379392;
 }
 
 body {
@@ -135,7 +136,7 @@ a {
 
 /* About Section */
 .aboutSection {
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 .aboutImageSec {
@@ -146,6 +147,30 @@ a {
   width: 350px;
   transform: rotate(90deg);
   height: auto;
+}
+
+.about h3 {
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.about p {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+/* Footer Section */
+footer {
+  background-color: var(--footer-background-color);
+  color: white;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 1.5rem;
 }
 
 /* -----------------------------------------------------------------------------------------------------------*/
@@ -195,18 +220,27 @@ a {
 }
 
 /* About Section */
-.about h3 {
+.aboutImageSec {
   text-align: center;
-  margin-top: 15vh;
+}
+
+.aboutImage {
+  text-align: center;
+  position: relative;
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+  width: 100%;
+}
+
+.about h3 {
   font-size: 2rem;
 }
 
 .about p {
-  margin-top: 5vh;
-  text-align: center;
   line-height: 1.2rem;
   font-size: 1.1rem;
 }
+
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Tablet */
 @media screen and (min-width: 600px) {
