@@ -245,6 +245,34 @@ a {
 
 /* Card protoype --------------------------------------------------------------------------- */
 
+/* Skills Section*/
+.skillsSection {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skill-card {
+  margin-top: 25px;
+}
+
+.skill-card h5 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.skill-card li {
+  margin-top: 5px;
+}
+
+/* Certifications Section */
+.certificationSection {
+  text-align: center;
+}
+
+.certification-card h4 {
+  margin-bottom: 25px;
+}
+
 /* Footer Section */
 footer {
   background-color: var(--footer-background-color);
@@ -339,6 +367,21 @@ footer a i {
   font-size: 1.1rem;
 }
 
+/* Project Section */
+.projectSection h4 {
+  font-size: 1.5rem;
+}
+
+/* Skills Section */
+.skillsSection h4 {
+  font-size: 1.5rem;
+}
+
+/* Certification section */
+.certification-card h4 {
+  font-size: 1.5rem;
+}
+
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Tablet */
 @media screen and (min-width: 600px) {
@@ -366,14 +409,57 @@ footer a i {
     margin-top: 5vh;
     font-size: 1.2rem;
   }
+
+  /* Project Section */
+  .projectSection h4 {
+    font-size: 1.6rem;
+  }
+
+  /* Skills Section */
+  .skillsSection h4 {
+    font-size: 1.6rem;
+  }
+
+  /* Certification section */
+  .certification-card h4 {
+    font-size: 1.6rem;
+  }
 }
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Laptop  */
 @media screen and (min-width: 900px) {
+  /* Project Section */
+  .projectSection h4 {
+    font-size: 1.7rem;
+  }
+
+  /* Skills Section */
+  .skillsSection h4 {
+    font-size: 1.7rem;
+  }
+
+  /* Certification section */
+  .certification-card h4 {
+    font-size: 1.7rem;
+  }
 }
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Desktop Nav */
 @media screen and (min-width: 1200px) {
+  /* Project Section */
+  .projectSection h4 {
+    font-size: 2rem;
+  }
+
+  /* Skills Section */
+  .skillsSection h4 {
+    font-size: 2rem;
+  }
+
+  /* Certification section */
+  .certification-card h4 {
+    font-size: 2rem;
+  }
 }
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Large Screen */
@@ -388,9 +474,38 @@ footer a i {
   .about p {
     font-size: 1.4rem;
   }
+
+  /* Project Section */
+  .projectSection h4 {
+    font-size: 2.2rem;
+  }
+
+  /* Skills Section */
+  .skillsSection h4 {
+    font-size: 2.2rem;
+  }
+
+  /* Certification section */
+  .certification-card h4 {
+    font-size: 2.2rem;
+  }
 }
 
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Nasa Screen*/
 @media screen and (min-width: 2000px) {
+  /* Project Section */
+  .projectSection h4 {
+    font-size: 2.8rem;
+  }
+
+  /* Skills Section */
+  .skillsSection h4 {
+    font-size: 2.8rem;
+  }
+
+  /* Certification section */
+  .certification-card h4 {
+    font-size: 2.8rem;
+  }
 }
