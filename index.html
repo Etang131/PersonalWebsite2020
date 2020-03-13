@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav id="top" class="navbar">
         <div class="brand-title">Erik Tangvik</div>
         <a href="#" class="toggle-button">
           <span class="bar"></span>
@@ -45,7 +45,7 @@
           </div>
         </div>
       </section>
-      <section class="aboutSection">
+      <section id="about" class="aboutSection">
         <div class="aboutImageSec">
           <img src="images/20190712_092040.jpg" alt="me" class="aboutImage" />
         </div>
@@ -61,7 +61,7 @@
       </section>
 
       <!-- Experimental Card-->
-      <section class="projectSection">
+      <section id="projects" class="projectSection">
         <h4>Projects</h4>
         <div class="projectShowCase">
           <div class="card">
@@ -108,7 +108,7 @@
       </section>
       <!-- Experimental Card-->
 
-      <section class="skillsSection">
+      <section id="skills" class="skillsSection">
         <h4>Skills</h4>
         <div class="skill-card">
           <h5>Programining Languages</h5>
@@ -131,7 +131,7 @@
         </div>
       </section>
 
-      <section class="educationSection">
+      <section id="resume" class="educationSection">
         <div class="education-card">
           <h4>Formal Education</h4>
           <ul>
@@ -151,13 +151,14 @@
       </section>
 
       <!--Contact Form -->
-      <section class="contactSection">
+      <section id="contact" class="contactSection">
         <div class="contact-form">
           <h4>Contact Me!</h4>
           <div class="txtb">
             <label>Full Name: </label>
             <input
               type="text"
+              id="fullName"
               name=""
               value=""
               placeholder="Enter your name"
@@ -169,6 +170,7 @@
             <label>Email: </label>
             <input
               type="email"
+              id="email"
               name=""
               value=""
               placeholder="Enter your email"
@@ -180,6 +182,7 @@
             <label>Phone Number: </label>
             <input
               type="text"
+              id="phone"
               name=""
               value=""
               placeholder="Enter your Phone Number"
@@ -188,9 +191,9 @@
 
           <div class="txtb">
             <label>Message: </label>
-            <textarea rows="10" required></textarea>
+            <textarea id="contactMessage" rows="10" required></textarea>
           </div>
-          <a class="btn">Send</a>
+          <button type="submit" class="btn">Send</button>
         </div>
       </section>
       <!--Form -->
@@ -204,7 +207,10 @@
       <a href="https://github.com/Etang131" target="_blank"
         ><i class="fab fa-github fa-2x"></i
       ></a>
-      <p>Last Updated: 12/3/2020</p>
+      <p>Last Updated: 13/3/2020</p>
+      <ul>
+        <li><a href="#top">Back to the Top</a></li>
+      </ul>
     </footer>
     <script src="js/script.js"></script>
   </body>
