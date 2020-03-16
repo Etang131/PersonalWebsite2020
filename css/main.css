@@ -179,7 +179,7 @@ a {
 
 .card {
   display: grid;
-  grid-template-columns: 350px;
+  grid-template-columns: 300px;
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "source";
   border-radius: 18px;
@@ -263,7 +263,7 @@ a {
 }
 
 .skill-card li {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 /* Formal Education Section */
@@ -277,7 +277,7 @@ a {
 }
 
 .education-card li {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 /* Certifications Section */
@@ -291,7 +291,29 @@ a {
 }
 
 .certification-card li {
-  margin-top: 15px;
+  margin-top: 25px;
+}
+
+/* Resume Section */
+.resumeBtnSection {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.resumeBtn-card a {
+  text-decoration: none;
+}
+
+.Resume-btn {
+  display: block;
+  background: #4c9f70;
+  padding: 20px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 175px;
 }
 
 /* Contact Section */
@@ -464,6 +486,14 @@ footer ul a {
 /* Skills Section */
 .skillsSection h4 {
   font-size: 1.5rem;
+}
+
+.skill-card h5 {
+  font-size: 1.3rem;
+}
+
+.skill-card li {
+  font-size: 1rem;
 }
 
 /* Formal education */
