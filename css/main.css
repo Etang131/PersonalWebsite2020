@@ -413,6 +413,27 @@ footer ul a {
 /* -----------------------------------------------------------------------------------------------------------*/
 /*Media Queries */
 
+/* Mini Mobile */
+@media (max-width: 400px) {
+}
+
+/* Mini Mobile Projects Section*/
+.card {
+  grid-template-columns: 275px;
+}
+
+/* Mini Mobile Contact Section */
+.contact-form {
+  width: 100%;
+}
+
+.txtb {
+  width: 100%;
+  padding-left: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------*/
+
 /* Mobile  */
 
 /* Mobile Nav */
