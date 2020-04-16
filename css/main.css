@@ -281,6 +281,13 @@ a {
   margin-bottom: 25px;
 }
 
+.education-card {
+  background-color: #3c9f70;
+  padding: 2rem 1rem;
+  border-radius: 15px;
+  color: white;
+}
+
 .education-card h4 {
   margin-bottom: 25px;
 }
@@ -293,6 +300,14 @@ a {
 .certificationSection {
   text-align: center;
   margin-top: 50px;
+}
+
+/* Thinking about adding color borders */
+.certification-card {
+  background-color: #3c9f70;
+  padding: 2rem 1rem;
+  border-radius: 15px;
+  color: white;
 }
 
 .certification-card h4 {
