@@ -318,6 +318,11 @@ a {
   margin-top: 25px;
 }
 
+.certProjects {
+  text-decoration: none;
+  color: white;
+}
+
 /* Resume Section */
 .resumeBtnSection {
   display: flex;
@@ -564,6 +569,10 @@ footer ul a {
 }
 
 .certification-card {
+  font-size: 1.1rem;
+}
+
+.certProjects {
   font-size: 1.1rem;
 }
 
