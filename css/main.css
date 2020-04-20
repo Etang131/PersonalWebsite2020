@@ -733,3 +733,27 @@ footer ul a {
     font-size: 2.8rem;
   }
 }
+
+/* fccDesign PAGE ------------------------------------------------------------------------------------------------------------------------------------*/
+.fccDesignAbout {
+  margin: 25px 0 50px 0;
+}
+
+.fccDesignAbout h2 {
+  color: black;
+  text-align: center;
+}
+
+.fccDesignAbout p {
+  font-size: 1.2rem;
+  line-height: 25px;
+  margin-top: 5vh;
+  text-align: center;
+  text-indent: 50px;
+}
+
+.fccDesignAbout a {
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
