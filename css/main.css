@@ -157,12 +157,11 @@ a {
 }
 
 .about {
-  margin-left: 15px;
   flex: 1;
   flex-grow: 2;
-  min-width: 350px;
+  min-width: 300px;
+  max-width: 675px;
   align-items: center;
-  margin-left: 15px;
 }
 
 .about h3 {
@@ -434,6 +433,7 @@ footer {
 }
 
 footer h4 {
+  color: white;
   font-size: 1.7rem;
   margin-bottom: 10px;
 }
@@ -630,6 +630,11 @@ footer ul a {
 /* -----------------------------------------------------------------------------------------------------------*/
 /* Laptop  */
 @media screen and (min-width: 900px) {
+  /* About Section */
+  .about {
+    margin-left: 15px;
+  }
+
   /* Project Section */
   .projectSection h4 {
     font-size: 1.7rem;
@@ -697,11 +702,35 @@ footer ul a {
   }
 
   /* Formal Education section*/
+  .educationSection > p,
+  h4,
+  li {
+    color: black;
+  }
+
+  .education-card {
+    background-color: white;
+  }
+
   .education-card h4 {
     font-size: 2.2rem;
   }
 
   /* Certification section */
+  .certificationSection {
+    margin-bottom: -50px;
+  }
+
+  .certificationSection > p,
+  h4,
+  li {
+    color: black;
+  }
+
+  .certification-card {
+    background-color: white;
+  }
+
   .certification-card h4 {
     font-size: 2.2rem;
   }
