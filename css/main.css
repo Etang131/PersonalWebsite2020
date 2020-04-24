@@ -783,3 +783,12 @@ footer ul a {
   font-size: 1.2rem;
   text-decoration: none;
 }
+
+.card-image41 {
+  grid-area: image;
+  background: url("/images/tributepage.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
