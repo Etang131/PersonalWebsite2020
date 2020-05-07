@@ -268,6 +268,16 @@ a {
   background-position: center;
 }
 
+/*card3*/
+.card-image3 {
+  grid-area: image;
+  background: url("/images/responsiveBookPage.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
 /* Card protoype --------------------------------------------------------------------------- */
 
 /* Skills Section*/
@@ -731,6 +741,10 @@ footer ul a {
     background-color: white;
   }
 
+  .certification-card a {
+    color: black;
+  }
+
   .certification-card h4 {
     font-size: 2.2rem;
   }
@@ -763,30 +777,54 @@ footer ul a {
 /* fccDesign PAGE ------------------------------------------------------------------------------------------------------------------------------------*/
 .fccDesignAbout {
   margin: 25px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .fccDesignAbout h2 {
   color: black;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 .fccDesignAbout p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 25px;
   margin-top: 5vh;
-  text-align: center;
   text-indent: 50px;
+  max-width: 1000px;
+  margin-bottom: 5vh;
 }
 
 .fccDesignAbout a {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
 .card-image41 {
   grid-area: image;
   background: url("/images/tributepage.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image42 {
+  grid-area: image;
+  background: url("/images/surveyform.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image43 {
+  grid-area: image;
+  background: url("/images/productLandingPage.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
