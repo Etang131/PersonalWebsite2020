@@ -830,3 +830,21 @@ footer ul a {
   background-size: cover;
   background-position: center;
 }
+
+.card-image44 {
+  grid-area: image;
+  background: url("/images/techDocProject.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image45 {
+  grid-area: image;
+  background: url("/images/personalPortPage.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
