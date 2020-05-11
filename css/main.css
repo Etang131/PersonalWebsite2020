@@ -584,7 +584,9 @@ footer ul a {
   }
 
   .education-card {
+    color: black;
     background-color: white;
+    margin-bottom: -25px;
   }
 
   /* Certification section */
@@ -599,6 +601,7 @@ footer ul a {
   }
 
   .certification-card {
+    color: black;
     background-color: white;
   }
 
