@@ -624,10 +624,8 @@ footer ul a {
   align-items: center;
 }
 
-.fccDesignAbout h2 {
-  color: black;
-  font-size: 2.5rem;
-  text-align: center;
+#fccAboutSubTitle {
+  margin-top: 15px;
 }
 
 .fccDesignAbout p {
@@ -643,6 +641,10 @@ footer ul a {
   color: black;
   font-size: 1.4rem;
   text-decoration: none;
+}
+
+.fccDesignAbout a:hover {
+  background-color: var(--nav-aHover-color);
 }
 
 .card-image41 {
