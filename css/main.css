@@ -7,6 +7,8 @@
   --nav-background-color: #3c9f70;
   --nav-aHover-color: #496f5d;
   --hero-font-color: white;
+  --card-button-color: #3c9f70;
+  --card-button-font-color: white;
   --footer-background-color: #379392;
 }
 
@@ -255,7 +257,7 @@ a {
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: #4c9f70;
+  background: var(--card-button-color);
 }
 
 .cardSource .source a {
@@ -264,7 +266,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: white;
+  color: var(--card-button-font-color);
   text-decoration: none;
 }
 
@@ -324,10 +326,10 @@ a {
 }
 
 .education-card {
-  background-color: #3c9f70;
+  background-color: var(--card-button-color);
   padding: 2rem 1rem;
   border-radius: 15px;
-  color: white;
+  color: var(--card-button-font-color);
 }
 
 .education-card li {
@@ -342,10 +344,10 @@ a {
 
 /* Thinking about adding color borders */
 .certification-card {
-  background-color: #3c9f70;
+  background-color: var(--card-button-color);
   padding: 2rem 1rem;
   border-radius: 15px;
-  color: white;
+  color: var(--card-button-font-color);
 }
 
 .certification-card li {
@@ -354,7 +356,7 @@ a {
 
 .certProjects {
   text-decoration: none;
-  color: white;
+  color: var(--card-button-font-color);
 }
 
 /* Resume Section */
@@ -366,15 +368,15 @@ a {
 
 .resumeBtn-card a {
   text-decoration: none;
-  color: white;
+  color: var(--card-button-font-color);
 }
 
 .Resume-btn {
   display: block;
-  background: #4c9f70;
+  background: var(--card-button-color);
   border-radius: 10px;
   padding: 15px;
-  color: white;
+  color: var(--card-button-font-color);
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
