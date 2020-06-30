@@ -1,0 +1,36 @@
+:root {
+  --hero-title-color: #3c9f70;
+  --heading-title-color: #496f5d;
+  --subHeading-title-color: #379392;
+}
+
+h2 {
+  color: var(--hero-title-color);
+}
+
+h3 {
+  color: var(--heading-title-color);
+}
+
+h4 {
+  color: var(--subHeading-title-color);
+}
+
+/* Blog About */
+
+#blogAbout {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#blogAbout h2,
+p {
+  margin-top: 25px;
+}
+
+#blogAbout p {
+  font-size: 1.5rem;
+}
