@@ -230,12 +230,11 @@ a {
   transition: 0.5s ease;
 }
 
-.card-image {
+.card-image-style {
   grid-area: image;
-  background: url("/images/1381790986619.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background-size: cover;
+  background-position: center;
 }
 
 .card-text {
@@ -279,24 +278,20 @@ a {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
-/*card2*/
-.card-image2 {
-  grid-area: image;
-  background: url("/images/todolist.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+.card-image1 {
+  background: url("/images/1381790986619.jpg");
   background-size: cover;
-  background-position: center;
 }
 
-/*card3*/
+.card-image2 {
+  background: url("/images/todolist.jpg");
+  background-size: cover;
+}
+
 .card-image3 {
   grid-area: image;
   background: url("/images/responsiveBookPage.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-size: cover;
-  background-position: center;
 }
 
 /* Card protoype --------------------------------------------------------------------------- */
@@ -655,46 +650,26 @@ footer ul a {
 }
 
 .card-image41 {
-  grid-area: image;
   background: url("/images/tributepage.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-size: cover;
-  background-position: center;
 }
 
 .card-image42 {
-  grid-area: image;
   background: url("/images/surveyform.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-size: cover;
-  background-position: center;
 }
 
 .card-image43 {
-  grid-area: image;
   background: url("/images/productLandingPage.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-size: cover;
-  background-position: center;
 }
 
 .card-image44 {
-  grid-area: image;
   background: url("/images/techDocProject.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-size: cover;
-  background-position: center;
 }
 
 .card-image45 {
-  grid-area: image;
   background: url("/images/personalPortPage.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
   background-size: cover;
-  background-position: center;
 }
