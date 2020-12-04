@@ -244,8 +244,9 @@ a {
 
 .card-text p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
+  line-height: 1.5rem;
   margin-top: 15px;
 }
 
@@ -279,16 +280,31 @@ a {
 }
 
 .card-image1 {
-  background: url("/images/1381790986619.jpg");
+  background: url("/images/codingBootcampTestimonialsSlider.jpg");
   background-size: cover;
 }
 
 .card-image2 {
-  background: url("/images/todolist.jpg");
+  background: url("/images/fourCardFeatureSection.jpg");
   background-size: cover;
 }
 
 .card-image3 {
+  background: url("/images/socialProofSection.jpg");
+  background-size: cover;
+}
+
+.card-image4 {
+  background: url("/images/singlePriceGridComponent.jpg");
+  background-size: cover;
+}
+
+.card-image5 {
+  background: url("/images/todolist.jpg");
+  background-size: cover;
+}
+
+.card-image6 {
   grid-area: image;
   background: url("/images/responsiveBookPage.jpg");
   background-size: cover;
