@@ -279,6 +279,16 @@ a {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
+.card-image01 {
+  background: url("/images/faqAccordionCard.jpg");
+  background-size: cover;
+}
+
+.card-image0 {
+  background: url("/images/introComponentWithSignupForm.jpg");
+  background-size: cover;
+}
+
 .card-image1 {
   background: url("/images/codingBootcampTestimonialsSlider.jpg");
   background-size: cover;
